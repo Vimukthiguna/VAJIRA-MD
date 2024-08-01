@@ -37,7 +37,7 @@ BANNED_USER: process.env.BANNED_USER === undefined ? '' : process.env.BANNED_USE
 AI_MODE: process.env.AI_MODE === undefined ? 'true' : process.env.AI_MODE,
 ANTI_LINK: process.env.ANTI_LINK || true  ,
 BOT_DETECT: process.env.BOT_DETECT === undefined ? 'false' : process.env.BOT_DETECT,    
-ANTI_BOT: process.env.ANTI_BOT || true  ,
+ANTI_BOT: process.env.ANTI_BOT || false  ,
 ANTI_CALL: process.env.ANTI_CALL || true  ,
 ALIVE: process.env.ALIVE || `true`,     
 AUTO_STATUS_READ:  process.env.AUTO_STATUS_READ  || true  ,    
