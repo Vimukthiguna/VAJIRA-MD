@@ -35,7 +35,7 @@ HEROKU_APP_NAME: process.env.HEROKU_APP_NAME === undefined ? '' : process.env.HE
 INBOX_USER: process.env.INBOX_USER === undefined ? '' : process.env.INBOX_USER,"block"
 BANNED_USER: process.env.BANNED_USER === undefined ? '' : process.env.BANNED_USER ,    
 AI_MODE: process.env.AI_MODE === undefined ? 'true' : process.env.AI_MODE,
-ANTI_LINK: process.env.ANTI_LINK || true  ,
+ANTI_LINK: process.env.ANTI_LINK || false  ,
 BOT_DETECT: process.env.BOT_DETECT === undefined ? 'false' : process.env.BOT_DETECT,    
 ANTI_BOT: process.env.ANTI_BOT || false  ,
 ANTI_CALL: process.env.ANTI_CALL || true  ,
